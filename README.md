@@ -1,0 +1,3 @@
+# Voting contract
+
+A pack of contracts that allows users to vote for proposals, using token balances. Users own an ERC20 token, representing “voting power” or DAO ownership shares. Proposals are simply the keccak256 hashes and can be “accepted”, “rejected” or “discarded” (if TTL of proposal is expired). The fact of acceptance of a proposal is fixed in the event, nothing else is stored in contracts.
